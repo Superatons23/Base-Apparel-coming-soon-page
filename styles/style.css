@@ -164,7 +164,7 @@ input[type="email"]:focus-visible {
     text-align: start;
     width: 27rem;
     justify-self: center;
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 0;
     padding-left: 3.3rem;
   }
@@ -199,5 +199,10 @@ input[type="email"]:focus-visible {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
+  }
+  body {
+    background: url(../images/bg-pattern-desktop.svg),
+      linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    background-size: 60% 100%;
   }
 }
